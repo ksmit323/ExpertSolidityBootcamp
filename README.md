@@ -1,6 +1,6 @@
 # Expert Solidity Bootcamp
 
-Welcome my (Kenneth Smith) Expert Solidity Bootcamp repository. This repository serves as a comprehensive learning resource for mastering Solidity smart contract development during my Solidity bootcamp experience. It includes a variety of exercises, projects, and capture-the-flag challenges that enhanced my understanding and skills in the Ethereum ecosystem.
+Welcome to my (Kenneth Smith) Expert Solidity Bootcamp repository. This repository serves as a comprehensive learning resource for mastering Solidity smart contract development during my Solidity bootcamp experience. It includes a variety of exercises, projects, and capture-the-flag challenges that enhanced my understanding and skills in the Ethereum ecosystem.
 
 ## Contents
 
