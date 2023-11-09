@@ -1,10 +1,15 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity 0.8.17;
+pragma solidity 0.8.19;
 
 /////////////////// ☆☆ extropyio ☆☆ /////////////////////
 //     -漫~*'¨¯¨'*·舞~ solidity ctf ~舞·*'¨¯¨'*~漫-     //
 /////////////////////////////////////////////////////////
+
+/* INSTRUCTIONS: Level 4 - Powers of 2
+Using the Isolution4 interface write a function that takes a uint256 value and returns the greatest 
+power of 2, (2 ^ n) that is less than or equal to the input value. 
+The input value is a number between 2^0 and 2^256 -1
+*/
 
 /*
 interface Isolution4 {

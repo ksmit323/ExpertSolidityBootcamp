@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"bytes","name":"packed","type":"bytes"}],"name":"solution","outputs":[{"internalType":"uint16","name":"a","type":"uint16"},{"internalType":"bool","name":"b","type":"bool"},{"internalType":"bytes6","name":"c","type":"bytes6"}],"stateMutability":"pure","type":"function"}]

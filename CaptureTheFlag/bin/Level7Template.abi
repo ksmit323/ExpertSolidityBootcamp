@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"solution","outputs":[{"internalType":"uint256","name":"codeSize","type":"uint256"}],"stateMutability":"pure","type":"function"}]

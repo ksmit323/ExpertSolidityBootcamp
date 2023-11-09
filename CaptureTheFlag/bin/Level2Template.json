@@ -1,0 +1,230 @@
+{
+    "contractName": "Level2Template",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256[10]",
+                    "name": "unsortedArray",
+                    "type": "uint256[10]"
+                }
+            ],
+            "name": "solution",
+            "outputs": [
+                {
+                    "internalType": "uint256[10]",
+                    "name": "sortedArray",
+                    "type": "uint256[10]"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256[10]\",\"name\":\"unsortedArray\",\"type\":\"uint256[10]\"}],\"name\":\"solution\",\"outputs\":[{\"internalType\":\"uint256[10]\",\"name\":\"sortedArray\",\"type\":\"uint256[10]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/kss/coding_stuff/ExpertSolidityBootcamp/CaptureTheFlag/Level2.sol\":\"Level2Template\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/kss/coding_stuff/ExpertSolidityBootcamp/CaptureTheFlag/Level2.sol\":{\"keccak256\":\"0x41b147a698ec636732d3772a88e55ffc6c8d36812fdcb5d84c866a4c72e13ffc\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://230c6c3cb06dee45b672845b0c788c235bd2c863c91742b2b259386e22d1d051\",\"dweb:/ipfs/QmVigJekYwEmynMdd3vw3tzx4cyab3vZmwcDGk1P4LjAFi\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b50610109806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063209b472e14602d575b600080fd5b603c6038366004607a565b6050565b6040516047919060a3565b60405180910390f35b6056605b565b919050565b604051806101400160405280600a906020820280368337509192915050565b6000610140808385031215608d57600080fd5b838184011115609b57600080fd5b509092915050565b6101408101818360005b600a81101560ca57815183526020928301929091019060010160ad565b5050509291505056fea2646970667358221220f585664f4d3c865867d7706bbffab57636b3ece35d8cbea386c7ea7a0a5ad1c764736f6c63430008130033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063209b472e14602d575b600080fd5b603c6038366004607a565b6050565b6040516047919060a3565b60405180910390f35b6056605b565b919050565b604051806101400160405280600a906020820280368337509192915050565b6000610140808385031215608d57600080fd5b838184011115609b57600080fd5b509092915050565b6101408101818360005b600a81101560ca57815183526020928301929091019060010160ad565b5050509291505056fea2646970667358221220f585664f4d3c865867d7706bbffab57636b3ece35d8cbea386c7ea7a0a5ad1c764736f6c63430008130033",
+    "sourceMap": "593:204:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "593:204:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;623:172;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;709:30;;:::i;:::-;623:172;;;:::o;-1:-1:-1:-;;;;;;;;;;;;;;;;;;;;;;;;:::o;14:274:8:-;99:6;130:3;174:2;162:9;153:7;149:23;145:32;142:52;;;190:1;187;180:12;142:52;229:7;224:2;213:9;209:18;206:31;203:51;;;250:1;247;240:12;203:51;-1:-1:-1;273:9:8;;14:274;-1:-1:-1;;14:274:8:o;293:497::-;475:3;460:19;;464:9;556:6;433:4;590:194;604:4;601:1;598:11;590:194;;;663:13;;651:26;;700:4;724:12;;;;759:15;;;;624:1;617:9;590:194;;;594:3;;;293:497;;;;:::o",
+    "sourcePath": "/home/kss/coding_stuff/ExpertSolidityBootcamp/CaptureTheFlag/Level2.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "/home/kss/coding_stuff/ExpertSolidityBootcamp/CaptureTheFlag/Level2.sol",
+        "exportedSymbols": {
+            "Level2Template": [
+                49
+            ]
+        },
+        "id": 50,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 36,
+                "literals": [
+                    "solidity",
+                    "0.8",
+                    ".19"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:23:2"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Level2Template",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 49,
+                "linearizedBaseContracts": [
+                    49
+                ],
+                "name": "Level2Template",
+                "nameLocation": "602:14:2",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 47,
+                            "nodeType": "Block",
+                            "src": "741:54:2",
+                            "statements": []
+                        },
+                        "functionSelector": "209b472e",
+                        "id": 48,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "solution",
+                        "nameLocation": "632:8:2",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 41,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 40,
+                                    "mutability": "mutable",
+                                    "name": "unsortedArray",
+                                    "nameLocation": "671:13:2",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 48,
+                                    "src": "650:34:2",
+                                    "stateVariable": false,
+                                    "storageLocation": "calldata",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_uint256_$10_calldata_ptr",
+                                        "typeString": "uint256[10]"
+                                    },
+                                    "typeName": {
+                                        "baseType": {
+                                            "id": 37,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "650:7:2",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "id": 39,
+                                        "length": {
+                                            "hexValue": "3130",
+                                            "id": 38,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "number",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "658:2:2",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_rational_10_by_1",
+                                                "typeString": "int_const 10"
+                                            },
+                                            "value": "10"
+                                        },
+                                        "nodeType": "ArrayTypeName",
+                                        "src": "650:11:2",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_array$_t_uint256_$10_storage_ptr",
+                                            "typeString": "uint256[10]"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "640:50:2"
+                        },
+                        "returnParameters": {
+                            "id": 46,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 45,
+                                    "mutability": "mutable",
+                                    "name": "sortedArray",
+                                    "nameLocation": "728:11:2",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 48,
+                                    "src": "709:30:2",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_uint256_$10_memory_ptr",
+                                        "typeString": "uint256[10]"
+                                    },
+                                    "typeName": {
+                                        "baseType": {
+                                            "id": 42,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "709:7:2",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "id": 44,
+                                        "length": {
+                                            "hexValue": "3130",
+                                            "id": 43,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "number",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "717:2:2",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_rational_10_by_1",
+                                                "typeString": "int_const 10"
+                                            },
+                                            "value": "10"
+                                        },
+                                        "nodeType": "ArrayTypeName",
+                                        "src": "709:11:2",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_array$_t_uint256_$10_storage_ptr",
+                                            "typeString": "uint256[10]"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "708:32:2"
+                        },
+                        "scope": 49,
+                        "src": "623:172:2",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 50,
+                "src": "593:204:2",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:759:2"
+    },
+    "functionHashes": {
+        "solution(uint256[10])": "209b472e"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "53000",
+            "executionCost": "105",
+            "totalCost": "53105"
+        },
+        "external": {
+            "solution(uint256[10])": "infinite"
+        }
+    }
+}
