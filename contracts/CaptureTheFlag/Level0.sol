@@ -22,8 +22,8 @@ contract Level0Template {
         // TODO: Implement your solution here
 
         assembly {
-            mstore(0, 255)
-            return(0, 0)
+            mstore(0, 0xff)
+            return(0, 32)
         }
     }
 }
