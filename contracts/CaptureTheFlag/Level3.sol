@@ -21,5 +21,15 @@ contract Level3Template {
         bytes memory packed
     ) external pure returns (uint16 a, bool b, bytes6 c) {
         // TODO: Write your solution here
+        /// @solidity memory-safe-assembly
+        assembly {
+            let bytesContent := calldataload(68)
+
+            mstore(0x00, shr(240, bytesContent))
+            mstore(0x20, shr(248, shl(16, bytesContent)))
+            mstore(0x40, shl(24, bytesContent))
+
+            return(0x00, 96)
+        }
     }
 }
