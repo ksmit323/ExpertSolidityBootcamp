@@ -18,8 +18,25 @@ The array will be a fixed of 10 but the contents random.
 
 contract Level2Template {
     function solution(
-        uint256[10] calldata unsortedArray
+        uint256[10] calldata arr
     ) external returns (uint256[10] memory sortedArray) {
         // TODO: Implement your solution here.
+
+        uint256 n = arr.length;
+
+        for (uint256 i = 0; i < n - 1; i++) {
+            uint256 minIndex = i;
+
+            for (uint256 j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+
+            // Swap the found minimum element with the first element
+            (sortedArray[minIndex], sortedArray[i]) = (arr[i], arr[minIndex]);
+        }
+
+        return arr;
     }
 }
