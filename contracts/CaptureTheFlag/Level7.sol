@@ -16,7 +16,12 @@ interface Isolution7 {
 */
 
 contract Level7Template {
-    function solution(address addr) external pure returns (uint256 codeSize) {
+    function solution(address addr) external view returns (uint256 codeSize) {
         // TODO: Write your solution here
+
+        assembly {
+            // Retrieve the code size of the contract at the specified address
+            codeSize := extcodesize(addr)
+        }
     }
 }
