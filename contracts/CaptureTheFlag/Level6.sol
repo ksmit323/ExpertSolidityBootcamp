@@ -32,5 +32,13 @@ contract Level6Template {
         bytes32 s
     ) external pure returns (bool isSignedByOwner) {
         // TODO: Write your solution here
+
+        // Recover the signer's address from the provided signature
+        address signer = ecrecover(messageHash, v, r, s);
+
+        // Check if the recovered signer matches the expected owner
+        isSignedByOwner = (signer == owner);
+
+        return isSignedByOwner;
     }
 }
