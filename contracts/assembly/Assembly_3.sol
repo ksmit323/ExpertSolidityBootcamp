@@ -7,6 +7,14 @@ contract SubOverflow {
         // Write assembly code that handles overflows
         assembly {
 
+            let result := sub(x, y)
+
+            if gt(result, x) {
+                result := 0
+            }
+
+            mstore(0, result)
+            return(0, 32)
         }
     }
 }

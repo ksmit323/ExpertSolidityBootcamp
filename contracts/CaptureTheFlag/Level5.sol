@@ -27,5 +27,8 @@ contract Level5Template {
     // Ceil -> rounding away from zero
     function solution(int256 a, int256 b) external pure returns (int256) {
         // TODO: Write your solution here
+
+                
+
     }
 }

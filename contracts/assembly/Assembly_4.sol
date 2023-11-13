@@ -8,6 +8,12 @@ contract Scope {
         // the assembly segment
         assembly {
 
+            let storageSlot := sload(count.slot)
+
+            storageSlot := add(storageSlot, num)
+
+            sstore(count.slot, storageSlot)          
+
         }
     }
 }
