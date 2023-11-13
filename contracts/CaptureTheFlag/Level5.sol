@@ -28,7 +28,16 @@ contract Level5Template {
     function solution(int256 a, int256 b) external pure returns (int256) {
         // TODO: Write your solution here
 
-                
+        int modSum = a % 2 + b % 2;
+        int avg = a/2 + b/2;
 
+        if (modSum >= 1) {
+            avg += 1;
+        }
+        else if (modSum == -2) {
+            avg -= 1;
+        }
+
+        return avg;
     }
 }
